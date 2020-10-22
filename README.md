@@ -18,13 +18,13 @@
 
 ## prototypes テーブル
 
-| Column     | Type       | Options  |
-| ---------- | ---------- | -------- |
-| title      | string     | NOT NULL |
-| catch_copy | text       | NOT NULL |
-| concept    | text       | NOT NULL |
-| image      |            |          |
-| user       | references |          |
+| Column     | Type       | Options           |
+| ---------- | ---------- | --------          |
+| title      | string     | NOT NULL          |
+| catch_copy | text       | NOT NULL          |
+| concept    | text       | NOT NULL          |
+| image      |            |                   |
+| user       | references | foreign_key: true |
 
 ### Association
 
